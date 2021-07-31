@@ -1,70 +1,59 @@
-:root {
-    --yellow: #feb60a;
-    --red: #ff0062;
-    --blue: #00dbf9;
-    --violet: #da00f7;
-}
+ h1 {
+     width: 855px;
+     height: 100px;
+     color: #FF6145;
+     text-align: center;
+     font-family: 'Monotype Corsiva';
+     margin: auto;
+     padding: 10px;
+     border: 3px double #FF6145;
+     font-size: 45px;
+     background-color: #A5F37B;
+     transition: 1;
+ }
 
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #1a1940;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 153, 212, 0) calc(15% + 100px), rgba(0, 99, 138, 0) calc(85% + 100px), rgba(0, 0, 0, 0.15) 100%);
-}
+ h1:visited {
+     color: #47C143;
+ }
 
-div.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ h1:hover {
+     color: #EBFFB1;
+ }
 
-div > div {
-    width: 3vw;
-    height: 3vw;
-    border-radius: 100%;
-    margin: 2vw;
-    background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    animation: bounce 1.5s 0.5s linear infinite;
-}
+ .menu {
+     background-color: #D5D987;
+     width: 860px;
+     height: 35px;
+     margin: 10px auto;
+     padding: 10px;
+     text-align: center;
+ }
 
-.yellow {
-    background-color: var(--yellow);
-}
+ a5 {
+     color: #FF6145;
+     font-family: 'Calibri';
+     font-size: 25px;
+     font-style: italic;
+     text-decoration: none;
+     margin: 0px 25px;
+     transition: 0.5s;
+     width: 120px;
+     display: inline-block;
+     transition: 1;
+ }
 
-.red {
-    background-color: var(--red);
-    animation-delay: 0.1s;
-}
+ a5:visited {
+     color: #47C143;
+ }
 
-.blue {
-    background-color: var(--blue);
-    animation-delay: 0.2s;
-}
+ a5:hover {
+     color: #EBFFB1;
+ }
 
-.violet {
-    background-color: var(--violet);
-    animation-delay: 0.3s;
-}
+ body {
+     background-color: burlywood;
+ }
 
-@keyframes bounce {
-
-    0%,
-    50%,
-    100% {
-        transform: scale(1);
-        filter: blur(0px);
-    }
-
-    25% {
-        transform: scale(0.6);
-        filter: blur(3px);
-    }
-
-    75% {
-        filter: blur(3px);
-        transform: scale(1.4);
-    }
-}
+ .a {
+     color: black;
+ }
